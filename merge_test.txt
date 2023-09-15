@@ -1,0 +1,2 @@
+merge_test
+disallow the administrtor to bypass the rule
