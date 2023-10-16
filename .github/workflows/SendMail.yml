@@ -35,9 +35,9 @@ jobs:
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Optional (recommended) mail server username:
-          username: 1246924370@qq.com
+          username: ${{secrets.SMTP_USERNAME}}
           # Optional (recommended) mail server password:
-          password: meslsujxeunvghdf
+          password: ${{secrets.SMTP_PASSWORD}}
           # Required mail subject:
           subject: Github Actions job result
           # Required recipients' addresses:
