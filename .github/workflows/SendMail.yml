@@ -47,4 +47,4 @@ jobs:
           # Required sender full name (address can be skipped):
           from: Krxk # <user@example.com>
           # Optional plain body:
-          body: master branch of ${{github.repository}} push completely !
+          body: Branch master of ${{github.repository}} push completely!
