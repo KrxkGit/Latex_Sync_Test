@@ -43,7 +43,7 @@ jobs:
           # Required mail subject:
           subject: Github Actions job result
           # Required recipients' addresses:
-          to: ${{SMTP_TO}}
+          to: ${{secrets.SMTP_TO}}
           # Required sender full name (address can be skipped):
           from: Krxk # <user@example.com>
           # Optional plain body:
