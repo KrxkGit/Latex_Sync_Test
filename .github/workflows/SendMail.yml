@@ -37,7 +37,7 @@ jobs:
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Optional (recommended) mail server username:
-          username: 1246924370@qq.com
+          username: 1246924370
           # Optional (recommended) mail server password:
           password: meslsujxeunvghdf
           # Required mail subject:
