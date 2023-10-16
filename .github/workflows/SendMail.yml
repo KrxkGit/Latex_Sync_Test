@@ -5,8 +5,6 @@ name: SendMail
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
-  push:
-    branches: [ "master" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,11 +31,11 @@ jobs:
           # Required mail server address if not connection_url:
           server_address: smtp.qq.com
           # Server port, default 25:
-          server_port: 25
+          server_port: 465
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Optional (recommended) mail server username:
-          username: 1246924370
+          username: 1246924370@qq.com
           # Optional (recommended) mail server password:
           password: meslsujxeunvghdf
           # Required mail subject:
